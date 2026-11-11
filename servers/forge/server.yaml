@@ -1,0 +1,19 @@
+name: forge
+image: mcp/forge
+type: server
+meta:
+  category: devops
+  tags:
+    - devops
+    - deployment
+    - go
+    - protobuf
+    - kubernetes
+about:
+  title: Reliant Forge
+  description: Introspect a forge project, read its skill catalog, run lint and generate, and deploy a Vite or Next.js app with no account.
+  icon: https://avatars.githubusercontent.com/u/150214184?s=200&v=4
+source:
+  project: https://github.com/reliant-labs/forge
+  commit: e01ef3a14266b02be79f7af8959442fdfe49244e
+  dockerfile: Dockerfile.mcp
